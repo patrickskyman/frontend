@@ -67,7 +67,7 @@ export default function RootLayout({
                 <div className="flex items-center space-x-6 text-sm text-gray-500">
                   <span>Built with Next.js & FastAPI</span>
                   <span>•</span>
-                  <span>© 2024 Q&A Assistant</span>
+                  <span>© 2025 Q&A Assistant</span>
                 </div>
               </div>
             </div>

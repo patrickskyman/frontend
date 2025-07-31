@@ -1,6 +1,63 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## UI Features
+
+- **Modern Design**: Glassmorphism effects and gradient backgrounds
+- **Responsive Layout**: Works perfectly on desktop, tablet, and mobile
+- **Loading States**: Beautiful loading animations and progress indicators
+- **Error Handling**: User-friendly error messages and retry options
+- **Copy Functionality**: Copy AI responses to clipboard
+- **History Sidebar**: Browse and reload previous conversations
+- **Search**: Search through query history
+- **Pagination**: Efficient pagination for large query histories
+
+##Project Structure
+├── frontend/
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── layout.tsx       # Root layout
+│   │   │   ├── page.tsx         # Home page
+│   │   │   └── globals.css      # Global styles
+│   │   ├── components/
+│   │   │   ├── ChatInterface.tsx # Main chat component
+│   │   │   └── QueryHistory.tsx  # History sidebar
+│   │   └── lib/
+│   │       └── api.ts           # API utilities
+│   ├── package.json             # Node.js dependencies
+│   ├── tailwind.config.js       # Tailwind configuration
+│   └── .env.local               # Environment variables template
+└── README.md                    # This file
+
+## Getting Started on a new project
+
+```bash
+npx create-next-app frontend --use-npm
+
+# output
+Need to install the following packages:
+create-next-app@15.4.5
+Ok to proceed? (y) y
+
+✔ Would you like to use TypeScript? … No / Yes
+✔ Would you like to use ESLint? … No / Yes
+✔ Would you like to use Tailwind CSS? … No / Yes
+✔ Would you like your code inside a `src/` directory? … No / Yes
+✔ Would you like to use App Router? (recommended) … No / Yes
+✔ Would you like to use Turbopack for `next dev`? … No / Yes
+✔ Would you like to customize the import alias (`@/*` by default)? … No / Yes
+✔ What import alias would you like configured? … @/*
+Creating a new Next.js app in /Users/patrick/quiz-system/frontend.
+
+
+```
+
+## Installing packaages
+```bash
+npm i
+
+# or
+npm i lucide-react axios framer-motion react-hot-toast date-fns clsx tailwind-merge 
+```
 
 First, run the development server:
 
